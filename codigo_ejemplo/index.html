@@ -1,18 +1,28 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
 
-    <body>
-        <form action="/cgi-bin/index.py" method="get">
-<!--    <form action="/cgi-bin/index.py" method="post"> -->
-            User: <input type="text"     name="user"   ></br>
-            Pass: <input type="password" name="pass"   ></br>
-	          <input type="submit"   value="enviar">
-        </form>
+  <body>
+    <div class="content">
+      <h2>Redes de computadoras: Práctica 2 </h2>
+      <h3>Sánchez Reza Neider</h3>
+      <img src="images/red.png" width="200" height="auto">
 
+      <div class="form">
+	<form action="/cgi-bin/index.py" method="get">
+	  <!--    <form action="/cgi-bin/index.py" method="post"> -->
+            User: <br>
+	    <input type="text"     name="user"   ></br>
+            Pass: <br>
+	    <input type="password" name="pass"   ></br>
+	    <input type="submit"   value="enviar">
+	  </form>
+      </div>
+    </div>
 
-        <script src="/js/script.js"></script>
+      <script src="/js/script.js"></script>
 
-    </body>
+  </body>
 </html>
